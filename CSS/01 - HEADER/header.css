@@ -1,0 +1,152 @@
+header {
+    width: 100%;
+    height: 850px;
+    background-image: url("../../IMG/01\ -\ HEADER/bc.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 500px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    /* background-color: rgba(0, 0, 0, 0.07); */
+}
+
+header .content {
+    width: 100%;
+    height: 400px;
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+    flex-wrap: wrap;
+    margin-top: -50px;
+}
+
+header .content .container .text .left {
+    width: 10%;
+    height: 38%;
+    /* background-color: aquamarine; */
+    margin-right: 5px;
+}
+
+header .content .container .text .left .line {
+    width: 100%;
+    height: 2%;
+    background-color: rgb(233, 98, 98);
+}
+
+header .content .container .text a {
+    text-decoration: none;
+    width: 150px;
+    height: 12%;
+    margin-top: 250px;
+    font-size: 16pt;
+    color: #fff;
+    margin-left: -200px;
+    background-color: rgb(233, 98, 98);
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+header .content .container {
+    width: 70%;
+    height: 100%;
+}
+
+header .content .container .text {
+    width: 50%;
+    height: 100%;
+    /* background-color: brown; */
+    font-family: var(--dosis);
+    font-size: 35pt;
+    color: rgb(243, 243, 243);
+    display: var(--flex);
+    align-items: var(--center);
+}
+
+header .botton {
+    width: 100%;
+    height: 350px;
+    /* background-color: blueviolet; */
+    display: var(--flex);
+    align-items: var(--center);
+    justify-content: flex-end;
+    margin-top: 75px;
+}
+
+header .botton .content {
+    width: 85%;
+    height: 100%;
+    /* background-color: aquamarine; */
+}
+
+header .botton .content .imgs {
+    width: 50%;
+    height: 100%;
+    margin-right: -50px;
+    /* background-color: blueviolet; */
+    display: var(--flex);
+    align-items: var(--center);
+    flex-wrap: nowrap;
+}
+
+header .botton .content .imgs .img {
+    width: 50%;
+    height: 100%;
+    background-color: cadetblue;
+}
+
+#img1 {
+    margin-top: 150px;
+    background-image: url("../../IMG/01\ -\ HEADER/img1.jpg");
+    background-position-y: center;
+    background-position-x: 0%;
+    background-size: cover;
+}
+
+#img2 {
+    margin-left: -50px;
+    background-color: aquamarine;
+    background-image: url("../../IMG/01\ -\ HEADER/img2.jpg");
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 3px 6px 3px rgba(0, 0, 0, 0.18);
+}
+
+header .botton .content .text {
+    width: 50%;
+    height: 100%;
+    margin-right: -50px;
+    /* background-color: brown; */
+    display: var(--flex);
+    justify-content: var(--center);
+    align-items: var(--center);
+}
+
+header .botton .content .text .container {
+    width: 90%;
+    height: 80%;
+    /* background-color: aqua; */
+}
+
+header .botton .content .text .container .title {
+    width: 100%;
+    height: 50px;
+    /* background-color: blueviolet; */
+    display: var(--flex);
+    align-items: var(--center);
+    font-family: var(--dosis);
+    color: #fff;
+    font-size: 18pt;
+}
+
+header .botton .content .text .container .text {
+    width: 60%;
+    height: 200px;
+    /* background-color: blueviolet; */
+    font-size: 14pt;
+    text-align: justify;
+    color: rgb(167, 167, 167);
+}
